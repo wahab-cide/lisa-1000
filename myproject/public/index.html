@@ -36,10 +36,6 @@
                 </ul>
             </nav>
         </div>
-        <div class="title-container"><div>
-            <h1 id="intro-header"></h1>
-        </div>
-        </div>
     </header>  
     <section id="intro">
         <div>
@@ -47,9 +43,7 @@
         </div>
         <div >
             <h3>Did you know?</h3>
-            <ul>
-                <li>Storytelling is one of the most powerful ways of learning a new language.</li>
-            </ul>
+            <p><strong>Storytelling</strong> is one of the most powerful ways of learning a new language.</p>
             <p>Experience the magic of AI-driven, immersive, and interactive learning environments with <strong>LISA 1000</strong>.</p>
             <h3 >Create your <strong style="color: skyblue; font-family: 'Poppins', sans-serif;"><a href="create-story.html">Story</a></strong> and revolutionize your learning journey.</h3>
         </div>
@@ -68,25 +62,30 @@
                 <option value="fable">Hannah</option>
                 <option value="onyx">Roy</option>
                 <option value="shimmer">Emma</option>
-            </select>  
-            <button id="readButton">
-                <img src="images/speaker.png" alt="Read" style="width:20px;height:20px;">
-                Read Aloud</button>
-            <button id="recordButton">
-                <img src="images/mic.png" alt="Record" style="width:20px;height:20px;">
-                Record
-            </button>
-            <button id="translateButton">
-                <img src="images/translate.png" alt="translate" style="width:20px;height:20px;">
-                Translate</button>            
+            </select>
+            <div style="display: flex;justify-content: space-between; align-items: center;margin: 10px;">
+                <button id="readButton">
+                    <img src="images/speaker.png" alt="Read" style="width:20px;height:20px;">
+                    Read Aloud
+                </button>
+                <button id="recordButton">
+                    <img src="images/mic.png" alt="Record" style="width:20px;height:20px;">
+                    Record
+                </button>
+                <button id="translateButton">
+                    <img src="images/translate.png" alt="translate" style="width:20px;height:20px;">
+                    Translate
+                </button>
+            </div>            
         </article>
         <aside id="recommendations">
             <h3>Recommended Stories</h3>
-            <ul>
-                <li>Story 1</li>
-                <li>Story 2</li>
-                <li>More...</li>
-            </ul>
+            <ul class="styled-list">
+                <li><a href="#link1">Story 1</a></li>
+                <li><a href="#link2">Story 2</a></li>
+                <li><a href="#link3">More...</a></li>
+              </ul>
+              
         </aside>
     </main>
     <footer>

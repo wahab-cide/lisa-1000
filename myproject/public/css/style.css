@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins','Matemasie', sans-serif;
     margin: 0;
     padding: 0;
     background-color: var(--bg-color-main);
@@ -123,16 +123,21 @@ audio {
 }
 
 .nav-container nav ul li {
-    margin-left: 20px;
+    margin: 20px;
     position: relative;
+    font-family: 'Matemasie', sans-serif;
+}
+#translation-toggle {
+    background-color: #5851bd;
+    margin-left: 25px;
 }
 
 .nav-container nav ul li a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     color: var(--header-text-color);
     transition: color 0.3s ease;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Matemasie', sans-serif;
 }
 
 .nav-container nav ul li a:hover {
@@ -198,7 +203,7 @@ audio {
     margin-bottom: 20px;
 }
 
-#intro ul {
+#intro p {
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margin */
@@ -234,7 +239,7 @@ audio {
 }
 
 #intro p strong {
-    color: #5851bd; /* Accent color for LISA 1000 */
+    color: skyblue; /* Accent color for LISA 1000 */
     font-weight: bold;
 }
 
@@ -286,16 +291,16 @@ main {
 
 #story-content {
     font-family: 'Poppins', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.6;
     color: var(--text-primary);
-    font-weight: 600;
+    font-weight: 400;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
     padding: 20px;
     background-color: var(--bg-color-secondary);
-    border-radius: 10px;
+    border-radius: 2px;
     max-width: 800px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 #story-container {
@@ -340,11 +345,11 @@ div p {
 }
 
 aside {
-    background-color: var(--bg-color-secondary);
+    background-color: #1F1F1F;
     padding: 15px;
-    margin-top: 20px;
+    margin-top: 50px;
     width: 100%;
-    max-width: 300px;
+    max-width: 800px;
     border-left: 5px solid var(--accent-color);
     color: var(--text-primary);
 }
@@ -353,6 +358,45 @@ aside h3 {
     margin-top: 0;
     color: var(--text-primary);
 }
+/* Styling for the list container */
+aside .styled-list {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .styled-list li {
+    margin-bottom: 10px; /* Space between list items */
+  }
+  
+  .styled-list li a {
+    display: block; /* Make the entire list item clickable */
+    padding: 10px 15px; /* Space around the text */
+    text-decoration: none; /* Remove underline */
+    color: #ffffff; /* Text color */
+    background-color: #007bff; /* Background color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    font-family: Arial, sans-serif; /* Font style */
+    font-weight: bold; /* Bold text */
+  }
+  
+  /* Hover effect */
+  .styled-list li a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  /* Active/Visited link styling */
+  .styled-list li a:visited {
+    color: #e0e0e0; /* Light gray color for visited links */
+  }
+  
+  /* Focus state (for accessibility) */
+  .styled-list li a:focus {
+    outline: 3px solid #ffcc00; /* Yellow outline for focused links */
+  }
+  
 
 footer {
     text-align: center;
