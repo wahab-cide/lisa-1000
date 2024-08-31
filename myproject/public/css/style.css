@@ -204,10 +204,10 @@ audio {
 }
 
 #intro p {
-    list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
-    text-align: center; /* Align text to the left */
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    text-align: center; 
     font-family: 'Nunito Sans', sans-serif;
     font-size: 25px;
 }
@@ -223,29 +223,32 @@ audio {
 #intro a {
     color: skyblue;
     font-family: 'Poppins', sans-serif;
-    text-decoration: none; /* Remove underline from links */
+    text-decoration: none; 
     transition: color 0.3s ease;
 }
 #intro p {
     font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    text-align: center;
-    color: var(--text-primary);
+    font-size: 20px;
+    text-align: left;
+    color: #D3D3D3;
     line-height: 1.6;
     margin: 20px 0;
-    max-width: 600px; /* Limit the width to make text wrap nicely */
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    border: none;
+  
 }
 
+
 #intro p strong {
-    color: skyblue; /* Accent color for LISA 1000 */
+    color: skyblue; 
     font-weight: bold;
 }
 
 
 #intro a:hover {
-    color: var(--accent-color); /* Change color on hover */
+    color: var(--accent-color); 
 }
 
 
@@ -370,15 +373,15 @@ aside .styled-list {
   }
   
   .styled-list li a {
-    display: block; /* Make the entire list item clickable */
-    padding: 10px 15px; /* Space around the text */
-    text-decoration: none; /* Remove underline */
-    color: #ffffff; /* Text color */
-    background-color: #007bff; /* Background color */
-    border-radius: 5px; /* Rounded corners */
+    display: block;
+    padding: 10px 15px; 
+    text-decoration: none; 
+    color: #ffffff; 
+    background-color: #007bff; 
+    border-radius: 5px; 
     transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
-    font-family: Arial, sans-serif; /* Font style */
-    font-weight: bold; /* Bold text */
+    font-family: Arial, sans-serif; 
+    font-weight: bold; 
   }
   
   /* Hover effect */
@@ -387,7 +390,7 @@ aside .styled-list {
     transform: scale(1.05); /* Slightly enlarge on hover */
   }
   
-  /* Active/Visited link styling */
+  
   .styled-list li a:visited {
     color: #e0e0e0; /* Light gray color for visited links */
   }
