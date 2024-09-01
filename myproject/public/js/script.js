@@ -65,7 +65,7 @@ function cycleText() {
 
     function typeWriter(text, flag, idx = 0) {
         if (idx < text.length) {
-            animatedText.innerHTML = `<span class="${flag}"></span>${text.substring(0, idx + 1)}`;
+            animatedText.innerHTML = `<span class="smaller-text ${flag}"></span>${text.substring(0, idx + 1)}`;
             timer = setTimeout(() => typeWriter(text, flag, idx + 1), 150); // Adjust speed here
         } else {
             clearTimeout(timer); // Clear timer after finishing the typing animation
